@@ -1,0 +1,156 @@
+/* Main Container */
+
+.container {
+	margin: 0px;
+	background-color: #E6E8E8;
+}
+
+/* Header & Nav Bar */
+h1 { 
+	font-family: Roboto; 
+	font-weight: 400; 
+	float: left;
+	color: white;
+/*	border: solid #B6BABA 2px;
+*/	padding-left: 15px;
+}
+
+h2 {
+	font-family: Roboto Condensed; 
+	font-weight: 400; 
+	color: #103B4D;
+
+}
+
+.headerWrap{
+	height: 100px;
+	/*background-color: #103B4D; */
+	background-color: black;
+}
+
+.navBar {
+	font-family: Roboto Condensed; 
+	font-size: 1.2em;
+	font-weight: 400; 
+/*	border: solid #B6BABA 2px;
+*/	background-color: B6BABA;
+	margin-bottom: 5px;
+	text-decoration: none;
+	float: right;
+	padding: 1.2em;	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left; 
+}
+
+a {
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    background-color: #154B61;
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+	font-family: Roboto;
+	font-weight: 400; 
+	padding-left: 40px;
+	border: solid #B6BABA 2px;
+	background-color: black;
+	color: black;
+	padding-top: 10px;
+	font-size: 0.5em;
+	height: 100px;
+}
+
+/* Google Map */
+
+#map-canvas {
+	border: solid #B6BABA 2px;
+	margin-left: 20px;
+	width: 100%;
+	height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* Journey html style */
+
+.imageContainer {
+	width: 50%;
+	height: 70%;
+	border: solid #B6BABA 2px;
+/*	background-image: url("../media/forest.jpg");
+	background-size: 100%;
+	background-position: center;
+	opacity: 0.6; */
+	float: left;
+/*	transform: rotate(90deg); 
+*/}
+
+.blog{
+	color: black;
+	font-family: Indie Flower;
+	font-size: 0.7em;
+	width: 50%;
+	height: 50%;
+	
+
+}
+
+
+.video {
+	width: 500px;
+	height: 500px;
+	border: solid #B6BABA 2px;
+	float: left;
+}
+
+.imagebox {
+	clear: left;
+	border: solid #B6BABA 2px;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+	border:	solid red 2px;
+}
+
